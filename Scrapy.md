@@ -1,10 +1,10 @@
 ### Get started with Scrapy
 https://docs.scrapy.org/en/latest/intro/install.html#intro-install
 
-##### 1. Install framework
+#### 1. Install framework
 ```pip install Scrapy```
 
-##### 2. Create new project
+#### 2. Create new project
 ```scrapy startproject project-name```
 
 This will create a `project-name` directory with the following contents:
