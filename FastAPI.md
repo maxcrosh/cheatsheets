@@ -1,13 +1,13 @@
 ### Get started with FastAPI
 https://fastapi.tiangolo.com/
 
-##### 1. Install framework
+#### 1. Install framework
 ```pip install fastapi```
 
-##### 2. Install web server
+#### 2. Install web server
 ```pip install uvicorn```
 
-##### 3. Copy code to main.py:
+#### 3. Copy code to main.py:
 ```
 from fastapi import FastAPI
 
@@ -19,5 +19,5 @@ async def root():
 
 ````
 
-##### 4. Run web server
+#### 4. Run web server
 ```uvicorn main:app --reload```
