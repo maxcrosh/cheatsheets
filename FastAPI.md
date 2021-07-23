@@ -8,7 +8,7 @@ https://fastapi.tiangolo.com/
 `pip install uvicorn`
 
 ##### 3. Copy code to main.py:
-`
+```
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -17,4 +17,4 @@ app = FastAPI()
 async def root():
     return {"message": "Hello World"}
 
-`
+````
