@@ -3,13 +3,13 @@ https://fastapi.tiangolo.com/
 
 
 #### 1. Install framework
-```console
+```properties
 pip install fastapi
 ```
 
 
 #### 2. Install web server
-```bash
+```console
 pip install uvicorn
 ```
 
@@ -28,6 +28,6 @@ async def root():
 
 
 #### 4. Run web server
-```bash
+```shell
 uvicorn main:app --reload
 ```
