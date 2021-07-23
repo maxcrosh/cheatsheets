@@ -3,7 +3,7 @@ https://fastapi.tiangolo.com/
 
 
 #### 1. Install framework
-```bash
+```terminal
 pip install fastapi
 ```
 
