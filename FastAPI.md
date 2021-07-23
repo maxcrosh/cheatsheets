@@ -2,10 +2,10 @@
 https://fastapi.tiangolo.com/
 
 ##### 1. Install framework
-`pip install fastapi`
+```pip install fastapi```
 
 ##### 2. Install webserver
-`pip install uvicorn`
+```pip install uvicorn```
 
 ##### 3. Copy code to main.py:
 ```
