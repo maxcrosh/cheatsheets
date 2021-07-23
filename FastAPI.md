@@ -1,9 +1,9 @@
 ### Get started with FastAPI
 https://fastapi.tiangolo.com/
 
-##### Install framework
+##### 1. Install framework
 `pip install fastapi`
 
-##### Install webserver
+##### 2. Install webserver
 `pip install uvicorn`
 
