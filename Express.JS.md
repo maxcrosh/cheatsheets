@@ -48,6 +48,4 @@ set DEBUG=myapp:* & npm start
 ```
 
 #### 5. In the browser open
-
-MacOS & Linux
 http://localhost:3000/ 
