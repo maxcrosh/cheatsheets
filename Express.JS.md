@@ -6,7 +6,7 @@ https://expressjs.com/ru/starter/generator.html
 npm install express-generator -g
 ```
 
-#### 2. Run generator to create project folder
+#### 2. Run generator to create a project folder
 ```console
 express --view=ejs my-application
    
@@ -28,3 +28,26 @@ express --view=ejs my-application
    create : myapp/bin
    create : myapp/bin/www
 ```
+
+#### 3. Install requirements
+```console
+cd myapp
+npm install
+```
+
+#### 4. Run localhost
+
+MacOS & Linux
+```console
+DEBUG=myapp:* npm start
+```
+
+Windows
+```console
+set DEBUG=myapp:* & npm start
+```
+
+#### 5. In the browser open
+
+MacOS & Linux
+http://localhost:3000/ 
