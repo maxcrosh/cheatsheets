@@ -8,7 +8,7 @@ npm install express-generator -g
 
 #### 2. Run generator to create a project folder
 ```console
-express --view=ejs my-application
+express --view=ejs myapp
    
    create : myapp
    create : myapp/package.json
