@@ -1,5 +1,5 @@
-### Get started with React.JS
-https://reactjs.org/
+### Get started with HERE JavaScript Maps API
+https://developer.here.com/documentation/examples/maps-js
 
 #### 1. Copy code to `index.html`
 ```html
@@ -33,7 +33,7 @@ https://reactjs.org/
 #### 2. Copy javascript code into `<script>...</script>`
 ```javascript
 var platform = new H.service.Platform({
-  apikey: window.apikey
+  apikey: YOUR_APIKEY
 });
 
 var defaultLayers = platform.createDefaultLayers();
@@ -50,3 +50,5 @@ window.addEventListener('resize', () => map.getViewPort().resize());
 var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
 var ui = H.ui.UI.createDefault(map, defaultLayers);
 ```
+
+#### 3. Open `index.html` in browser
