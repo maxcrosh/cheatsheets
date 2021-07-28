@@ -34,3 +34,8 @@ sudo usermod -a -G docker ec2-user
 ```
 
 #### 7. Log out and log back in again to pick up the new docker group permissions. You can accomplish this by closing your current SSH terminal window and reconnecting to your instance in a new one. Your new SSH session will have the appropriate docker group permissions.
+
+#### 8. Verify that the ec2-user can run Docker commands without sudo.
+```
+docker info
+```
