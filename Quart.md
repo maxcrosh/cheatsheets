@@ -1,6 +1,6 @@
 ### Get started with Quart
 https://pgjones.gitlab.io/quart/tutorials/quickstart.html
-![Quart Logo](https://pgjones.gitlab.io/quart/_images/logo.png)
+
 #### 1. Create environment
 ```console
 mkdir myproject
