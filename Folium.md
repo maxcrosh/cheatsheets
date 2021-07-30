@@ -47,3 +47,17 @@ def getWeather(lat, lon, apiKey):
   
   return { "lat": lat, "lon": lon, "temp": temperature }
 ```
+
+#### 4. Add marker with weather data
+```python
+markerData = getWeather(55.7477, 37.62189, API_KEY)
+
+marker = folium.Marker(
+            location=[ markerData['lat'], markerData['lon'] ],
+            popup=f"{markerData['temp']}"
+         )
+
+marker.add_to(m)
+
+m.save(weather_map.html)
+```
