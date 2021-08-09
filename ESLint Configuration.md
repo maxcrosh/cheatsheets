@@ -13,4 +13,6 @@ eslint --init
 `
 
 And then answer question.Basically you need to select option with enforcing code style.
+
 ![ESLint example](https://github.com/maxcrosh/cheatsheets/blob/main/eslint-configuration-example.png)
+
